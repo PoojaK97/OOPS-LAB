@@ -1,0 +1,16 @@
+Character e is found at 2
+Character o is found at 5
+Character o is found at 7
+Character o is found at 8
+Character a is found at 10
+Character e is found at 14
+Character e is found at 16
+Character e is found at 18
+Character o is found at 21
+Character o is found at 23
+Character o is found at 24
+Character a is found at 26
+Character e is found at 30
+Character e is found at 32
+Character o is found at 34
+Character o is found at 35
