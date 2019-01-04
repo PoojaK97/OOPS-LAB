@@ -13,7 +13,8 @@ class student {
 };
 void student::getdata() {
 	cout<<"\nEnter NAME, ROLLNO, and MARKS OF 3 SUBJECTS : ";
-	cin>>name>>rollno>>marks[0]>>marks[1]>>marks[2];
+	cin.get(name, 30);
+	cin>>rollno>>marks[0]>>marks[1]>>marks[2];
 	fstream b;
 	b.open("StudentRecord.txt",ios::binary|ios::out|ios::app);
 	b<<"Name - "<<name<<"\n";
