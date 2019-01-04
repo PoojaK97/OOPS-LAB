@@ -7,7 +7,6 @@ class box {
 		int h;
 	public:
 		static int x;
-		static int y;
 		static void getcount() {
 			cout<<"\nNumber of objects : "<<x<<endl;
 		}
@@ -17,12 +16,10 @@ class box {
 			cin>>l>>b>>h;
 		}
 		void display() {
-			y++;
 			int volume=l*b*h;
-			cout<<"\nVolume of box "<<y<<" = "<<volume<<endl;
+			cout<<"\nVolume of box = "<<volume<<endl;
 		}
 };
-int box::y=0;
 int box::x=0;
 int main() {
 	int n;
